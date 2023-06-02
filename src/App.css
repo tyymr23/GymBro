@@ -60,7 +60,9 @@ body {
   width: 700px;
   height: 900px;
   margin-top: -330px;
-
+  border-bottom-left-radius: 25%;
+  border: black 10px double;
+  background-clip: content-box;
 }
 
 .exercise-card {

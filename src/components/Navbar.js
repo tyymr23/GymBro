@@ -2,7 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import {Stack} from '@mui/material' //stack from Material UI
 
-import Logo from '../assets/images/Logo.png'
+import Logo from '../assets/images/RedLogo.png'
 
 const Navbar = () => { //change logo in stack to desired, call Logo, find better color scheme
   return (
