@@ -10,7 +10,7 @@ const Navbar = () => { //change logo in stack to desired, call Logo, find better
     justifyContent: 'none'}} px='20px'
     >
       <Link to='/'>
-        <img src={Logo} alt='logo' style={{width: '60px', height: '60px', margin: '0 20px'}}/>
+        <img src={Logo} alt='logo' style={{width: '70px', height: '60px', margin: '0 20px'}}/>
       </Link>
       <Stack
         direction='row'
