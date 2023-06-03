@@ -31,7 +31,7 @@ const Detail = ({exerciseDetail}) => {
           {name}
         </Typography>
         <Typography sx={{ fontSize: { lg: '24px', xs: '18px' } }} color="#4F4C4C">
-          Exercises keep you strong. {name} {' '}
+          Exercises keep you strong. <span style={{textTransform: 'capitalize'}}>{name}</span> {' '}
           is one of the best exercises to target your {target}. It will help you improve your 
           mood and gain energy.
         </Typography>
